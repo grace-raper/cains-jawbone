@@ -1,7 +1,7 @@
 import re
 import nltk.data
 
-SEARCH_TERMS = ["stew", "soup"]
+SEARCH_TERMS = [" table ", " sitting ", " seat ", " sit ", " sat "]
 
 with open("cains_jawbone.txt", "r") as file:
     full_text = file.read()
